@@ -41,7 +41,7 @@ const properties = [
 
 export default function App() {
   const [submitted, setSubmitted] = useState(false);
-a
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans">
       
@@ -105,8 +105,7 @@ a
                     <span>{item.beds} Beds</span>
                     <span>{item.baths} Baths</span>
                   </div>
-                </div>git remote add origin https://github.com/ShubhamYadav0533/webdemo01.git
-
+                </div>
               </div>
             ))}
           </div>
