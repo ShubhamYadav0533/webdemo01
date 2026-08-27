@@ -41,7 +41,7 @@ const properties = [
 
 export default function App() {
   const [submitted, setSubmitted] = useState(false);
-
+a
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans">
       
@@ -105,9 +105,47 @@ export default function App() {
                     <span>{item.beds} Beds</span>
                     <span>{item.baths} Baths</span>
                   </div>
-                </div>
+                </div>git remote add origin https://github.com/ShubhamYadav0533/webdemo01.git
+
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Key Benefits Section */}
+      <section className="py-14 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl font-bold text-center mb-10">Why Choose HavenHomes</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            
+            {/* Benefit 1 */}
+            <div className="bg-slate-900/60 border border-slate-800 rounded-lg p-6 hover:border-amber-400/50 transition">
+              <div className="text-3xl font-bold text-amber-400 mb-3">🏆</div>
+              <h3 className="font-bold text-lg mb-2">Expert Guidance</h3>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                Access seasoned real estate professionals with extensive knowledge of luxury markets and exclusive deals.
+              </p>
+            </div>
+
+            {/* Benefit 2 */}
+            <div className="bg-slate-900/60 border border-slate-800 rounded-lg p-6 hover:border-amber-400/50 transition">
+              <div className="text-3xl font-bold text-amber-400 mb-3">✓</div>
+              <h3 className="font-bold text-lg mb-2">Verified Properties</h3>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                Every listing is thoroughly vetted and inspected to ensure authenticity and value for your investment.
+              </p>
+            </div>
+
+            {/* Benefit 3 */}
+            <div className="bg-slate-900/60 border border-slate-800 rounded-lg p-6 hover:border-amber-400/50 transition">
+              <div className="text-3xl font-bold text-amber-400 mb-3">⚡</div>
+              <h3 className="font-bold text-lg mb-2">Quick Closing</h3>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                Streamlined process with dedicated support from initial inquiry to final paperwork completion.
+              </p>
+            </div>
+
           </div>
         </div>
       </section>
